@@ -9,7 +9,7 @@ class ISEREPOTEST {
 	{
 		Grundschüler Tobi = new Grundschüler();
 		
-		int expected= 28;
+		int expected= 27;
 		int actual = Tobi.addiere();
 		assertEquals(expected, actual);
 	}
